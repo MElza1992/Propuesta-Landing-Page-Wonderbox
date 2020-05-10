@@ -1,0 +1,187 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'grayscale_signatureregular';
+    src: url('../tipos/grayscale_signature-webfont.woff2') format('woff2'),
+         url('../tipos/grayscale_signature-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	background-image: url("../images/zen-gracias.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 0px;
+}
+.centrado{
+	margin: auto;
+	width: 960px;
+}
+.clear{
+	clear: both;
+}
+header{
+	background-color: rgba(0,0,0,1.00);
+	height:48px;
+	padding-top:12px;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+}
+header .centrado img{
+	float: left;
+	width: 204px;
+	height: 35px;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+nav ul li a{
+	display: block;
+	height:40px;
+	width: 120px;
+	margin-left: 20px;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: rgba(255,255,255,1.00);
+    font-size: 16px;
+	line-height:40px;
+	text-decoration: none;
+    text-align: center;
+	transition: all 0.2s ease;
+}
+nav ul li a:hover{
+	font-size: 19px;
+}
+main .centrado h1{
+	font-family: 'grayscale_signatureregular';
+	font-size: 90px;
+	color: rgba(118,93,164,1.00);
+	line-height:60px;
+	margin-left: 335px;
+	padding-top: 70px;
+}
+main .centrado h1 span{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+	font-size: 45px;
+	color: rgba(0,0,0,1.00);
+	margin-left: 50px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    
+    border-top: 2px solid rgba(118,93,164,1.00);
+    width: 400px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+   
+    padding-top: 15px;
+
+}
+
+.una-columna{
+	width: 300px;
+	height: 300px;
+	border: 1px solid #FFFFFF;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	background-color: rgba(118,93,164,1.00);
+	float: left;
+}
+.dos-columnas{
+	width: 610px;
+	height: 300px;
+	border: 1px solid #FFFFFF;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	background-color: rgba(118,93,164,1.00);
+	float: left;	
+	background-image: url("../images/estancia.jpg")
+}
+#gastronomia{
+	background-image: url("../images/gastronomia.jpg")
+}
+#bienestar{
+	background-image: url("../images/bienestar.jpg")
+}
+#aventura{
+	background-image: url("../images/aventura-coche.jpg")
+}#multitematico{
+	background-image: url("../images/multitematicos.png");
+	margin-bottom: 100px;
+}
+#bloque-imagenes a{
+	width: 130px;
+	height: 40px;
+	display: block;
+	border-radius: 15px;
+	border: 2px solid #FFFFFF;
+	margin: auto;
+	margin-top: 135px;
+	background-color: rgba(118,93,164,0.70);
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 40px;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+#bloque-imagenes a:hover{
+	background-color: rgba(255,255,255,0.74);
+	color: rgba(118,93,164,1.00);
+}
+.cofre{
+	width: 155px;
+	height: 385px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 50px;
+	border: 1px solid rgba(118,93,164,0.40);
+	float: left;
+	padding: 15px;
+	font-family: 'Roboto', sans-serif;
+	transition: all 0.2s ease;
+}
+.cofre:hover{
+	background-color: rgba(118,93,164,0.20);
+}
+.cofre h3{
+	font-weight: 700;
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.cofre p{
+    text-align: center;
+	font-size: 13px;
+	margin-top: 0px;
+}
+footer{
+	clear: both;
+	background-color: rgba(0,0,0,1.00);
+	height:75px;
+	padding-top: 25px;
+}
+#redes-sociales{
+	margin-left: 530px;
+	}
+.redes a{
+	float: left;
+	margin-top: 15px;
+	margin-left: 30px;
+	color: rgba(174,154,212,1.00);
+	font-size: 25px;
+}
